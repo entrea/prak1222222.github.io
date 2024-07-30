@@ -1,0 +1,213 @@
+/* ESTILOS */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILIZANDO O TÍTULO PRINCIPAL */
+.main-title {
+    text-align: center;
+    margin-top: 0px; /* Ajustando conforme necessário para o espaço entre a navegação e o título */
+}
+.main-title h2 {
+    font-size: 4em; /* Ajustando o tamanho da fonte conforme necessário */
+    color: #260227; /* Cor do texto do título */
+    background-color: rgba(104, 64, 28, 0.5); /* Cor de fundo do título com transparência */
+    padding: 0px; /* Espaço ao redor do texto */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+
+/* ESTILOS DE TODOS OS ELEMENTOS */
+* {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    border: 0;
+    outline: 0;
+}
+
+
+
+/* ESTILIZANDO A NAVEGAÇÃO */
+nav {
+    background-color: #5f3615; /* Cor de fundo da navegação completamente opaca */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centralizando o conteúdo da lista */
+}
+nav ul li {
+    display: inline-block; /* Exibindo os itens da lista em linha */
+    margin: 0 10px; /* Espaço entre os itens da lista */
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block; /* Fazendo com que o link ocupe o bloco inteiro do item da lista */
+    padding: 5px 10px; /* Adicionando espaçamento interno ao link */
+    transition: color 0.3s ease; /* Adicionando transição suave para a cor do texto */
+}
+
+nav ul li a {
+    font-size: 24px; /* Tamanho da fonte em pixels */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff4800; /* Alterando a cor do texto ao passar o mouse */
+}
+
+
+
+
+
+/* ESTILOS DAS IMAGENS DA FLORESTA */
+.imagem-1, .imagem-2, .imagem-3, .imagem-4, .imagem-5, .imagem-6 {
+    height: auto; 
+    display: inline-block; /* Faznendo com que as imagens fiquem lado a lado */
+    margin: 0; /* Removendo a margem entre as imagens */
+}
+.imagem-1 {
+    max-width: 399px; /* Definindo a largura máxima da imagem 1 */
+}
+.imagem-2 {
+    max-width: 402px; 
+}
+.imagem-3 {
+    max-width: 376px; 
+}
+.imagem-4 {
+    max-width: 418px; 
+}
+.imagem-5 {
+    max-width: 386px; 
+}
+.imagem-6 {
+    max-width: 386px; 
+}
+
+
+
+
+/* ESTILOS DAS IMAGENS DOS ANIMAIS */
+.imagem-7, .imagem-8, .imagem-9, .imagem-10, .imagem-11, .imagem-12, .imagem-13 {
+    display: inline-block; 
+    margin: 0; 
+    height: auto; 
+}
+.imagem-7 {
+    max-width: 400px; 
+    height: 600px; /* Definindo a altura fixa da imagem 7 */
+}
+.imagem-8 {
+    max-width: 360px; 
+}
+.imagem-9 {
+    max-width: 416px; 
+}
+.imagem-10 {
+    max-width: 420px; 
+}
+.imagem-11 {
+    max-width: 342px; 
+}
+.imagem-12 {
+    max-width: 422px; 
+}
+.imagem-13 {
+    max-width: 850px; 
+    height: 460px; 
+}
+
+
+
+/* ESTILOS DAS IMAGENS DOS VISITANTES*/
+.imagem-14, .imagem-15, .imagem-16, .imagem-17, .imagem-18, .imagem-19, .imagem-20 {
+    display: inline-block; 
+    margin: 0; 
+    height: auto; 
+}
+.imagem-14 {
+    max-width: 760px; 
+    height: 295px; 
+}
+.imagem-15 {
+    max-width: 640px; 
+    height: 295px; 
+}
+.imagem-16 {
+    max-width: 416px; 
+}
+.imagem-17 {
+    max-width: 380px; 
+}
+.imagem-18 {
+    max-width: 375px; 
+}
+.imagem-19 {
+    max-width: 590px; 
+}
+.imagem-20 {
+    max-width: 590px; 
+}
+
+
+
+/* ESTILIZANDO O CONTEÚDO PRINCIPAL */
+main {
+    padding-top: 2px;
+    text-align: justify;
+    margin-top: 65px; /* Empurrando o conteúdo para baixo */
+}
+
+main p {
+    font-size: 1.2em;
+    color: #333; /* Alterabdo a cor do texto no conteúdo principal */
+    margin-bottom: 15px; 
+}
+
+main h2 {
+    margin-bottom: 30px; /* Ajustando o valor conforme necessário */
+}
+
+
+
+
+/* ESTILO PARA O CONTÊINER DO TEXTO */
+.container {
+    width: 100%; /* Ajustando a largura do contêiner conforme necessário */
+    max-width: 1200px; /* Definindo um máximo para a largura do contêiner, se desejar */
+    margin: 0 auto; /* Centralizando o contêiner horizontalmente */
+    padding: 20px; /* Adicionando um pouco de espaçamento interno ao contêiner */
+}
+
+/* ESTILO PARA OS CABEÇALHOS */
+.container h2 {
+    text-align: center; /* Centralizando o texto do cabeçalho */
+    font-size: 2em; /* Ajustando o tamanho da fonte conforme necessário */
+    color: #3a033b; /* Cor do texto do cabeçalho */
+    background-color: rgba(104, 64, 28, 0.5); /* Cor de fundo do cabeçalho com transparência */
+    padding: 10px; /* Adicionando espaçamento interno ao cabeçalho */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* ESTILO PARA PARÁGRAFOS DENTRO DO COITÊINER */
+.container p {
+    text-align: justify; /* Justificando o texto */
+    margin-bottom: 15px; /* Espaço entre os parágrafos */
+    font-size: 1.3em; /* Ajustando o tamanho da fonte conforme necessário */
+    color: #333; /* Cor do texto */
+}
+
